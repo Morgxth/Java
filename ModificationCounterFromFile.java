@@ -47,7 +47,7 @@ public class ModificationCounterFromFile {
     }
 
     private static InputStream readXmlFileIntoInputStream(String s) {
-        return ExchangeRate.class.getClassLoader().getResourceAsStream(s);
+        return ModificationCounterFromFile.class.getClassLoader().getResourceAsStream(s);
     }
 }
 
